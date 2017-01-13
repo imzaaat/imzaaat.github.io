@@ -16,21 +16,22 @@ ul li a {text-decoration: none;}
 
 span {display:inline-block}
 
-#menu { width: 70%; min-width: 776px; border-style:solid; border-width: 4px 0px; }
+#menu { width: 70%; min-width: 776px; border-style:solid; border-width: 3.5px 0px; }
 
 #about img {float: right; height:220px}
 
-#about {width: 776px; min-height:300px; margin: 1% auto;}
+#about {width: 70%; min-width: 500px; min-height:300px; margin: 1% auto;}
 
-#bio { word-wrap: break-word; word-indent: 2px; font-family: Lucida Sans Unicode}
+#bio { word-wrap: break-word; word-indent: 5px; font-family: Lucida Sans Unicode; }
 
-#breakline {width:70%; border-style: solid; border-width: 5px 0 0 0 }
+#breakline {width:70%; border-style: solid; border-width: 3px 0 0 0; border-color:	rgb(128,128,128);}
 
 #contact img {display: inline-block; width:128px;  padding: 20px; margin-top: 10px; }
 
-#footer {margin: 0 auto; min-width: 776px; width: 70%; text-align:center; border-style:solid; border-width: 5px 0 0 0; padding-top: 5px}
+#footer {margin: 0 auto; min-width: 776px; width: 70%; text-align:center; border-style:solid; border-width: 4px 0 0 0; padding-top: 5px; border-color:	rgb(128,128,128);}
 
 #quote {margin: 0 auto; width:50%; min-width:500px; font-style: italic; ; word-wrap: break-word; font-size: 23px;}
 
-#v1 {text-decoration: none; text-color: black;}
+#v1 {text-decoration: none; color: black;}
+
 
