@@ -18,7 +18,7 @@ span {display:inline-block}
 
 #menu { width: 70%; min-width: 776px; border-style:solid; border-width: 3.5px 0px; }
 
-#about img {float: right; height:220px}
+#about img {float: right; height:220px;}
 
 #about {width: 70%; min-width: 500px; min-height:300px; margin: 1% auto;}
 
