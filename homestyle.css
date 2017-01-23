@@ -22,7 +22,7 @@ span {display:inline-block}
 
 #about {width: 70%; min-width: 500px; min-height:300px; margin: 1% auto;}
 
-#bio { word-wrap: break-word; word-indent: 5px; font-family: Lucida Sans Unicode; }
+#bio { width:70%; word-wrap: break-word; word-indent: 5px; font-family: Lucida Sans Unicode; text-align: left}
 
 #breakline {width:70%; border-style: solid; border-width: 3px 0 0 0; border-color:	rgb(128,128,128);}
 
