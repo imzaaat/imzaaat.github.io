@@ -2,33 +2,39 @@
 <html>
 	<head>
 		<title>Contact Zaid!</title>
-		<style>
-			td { padding: 25px} 
-		</style>
+		<link rel="stylesheet" href="contactstyle.css">
 	</head>
 	<body>
-		<table>
-			<tr>
-				<td>Name: </td>
-				<td>
-					<input type="firstname">
-				</td>
-			</tr>
-			<tr>
-				<td>Email:</td>
-				<td>
-					<input type="email">
-				</td>
-			</tr>
-			<tr>
-				<td>Message:</td>
-				<td>
-					<input type="textarea">
-				</td>
-			</tr>
-		</table>
-		
-		<input type="submit">
-		<input type="reset">
+	
+		<h2>Contact Form</h2>
+		<form autocomplete="on">		
+			<table id="contactform">
+				<tr>
+					<td>Name: </td>
+					<td>
+						<input type="firstname" placeholder="Full Name" required autofocus>
+					</td>
+				</tr>
+				<tr>
+					<td>Email:</td>
+					<td>
+						<input type="email" placeholder="Email" required>
+					</td>
+				</tr>
+					<td>Message:</td>
+					<td>
+						<textarea form="contactform" placeholder="Message"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<th colspan="2"><input type="submit" value="Send it off!"></th>
+				</tr>
+				<tr>
+					<th colspan="2"><a href="index.html">Back Home</a></th>
+				</tr>
+			</table>
+			
+			
+		</form>
 	</body>
 </html>

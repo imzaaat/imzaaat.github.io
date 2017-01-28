@@ -1,0 +1,41 @@
+
+
+h2 { 
+	margin: 0 auto; 
+	font: Century Gothic; 
+	font-size: 3.5em;
+	color: #8d8d8d;
+	margin-top: 150px;
+	text-align: center;
+	}
+
+input[type=submit] {
+	padding: 16px 32px;
+	border: none;
+	transition-duration: 0.4s;
+	background-color: white; 
+	border-radius:12px;
+	color: black;
+	 border: 2px solid #4CAF50;
+	}
+	
+input[type=submit]:hover {
+	color: white;
+    background-color: #4CAF50;
+	border-radius:12px;
+	}
+
+td { 
+	padding: 10px 15px; 
+	} 
+	
+textarea { 
+	height:100px; 
+	width:300px;
+	}
+
+table { 
+	margin: 0 auto 0 auto;
+	border: 3px dashed #BA0202 
+	}
+	
