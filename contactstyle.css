@@ -4,7 +4,7 @@ h2 {
 	margin: 0 auto; 
 	font: Century Gothic; 
 	font-size: 3.5em;
-	color: #8d8d8d;
+	color: #8d8d8d;  
 	margin-top: 150px;
 	text-align: center;
 	}
@@ -16,12 +16,12 @@ input[type=submit] {
 	background-color: white; 
 	border-radius:12px;
 	color: black;
-	 border: 2px solid #4CAF50;
+	 border: 2px solid #BA0202;
 	}
 	
 input[type=submit]:hover {
 	color: white;
-    background-color: #4CAF50;
+    background-color: #BA0202;
 	border-radius:12px;
 	}
 
@@ -36,6 +36,6 @@ textarea {
 
 table { 
 	margin: 0 auto 0 auto;
-	border: 3px dashed #BA0202 
+	border: 3px dashed #BA0202 /* BA0202 */
 	}
 	
