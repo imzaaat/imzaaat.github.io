@@ -1,0 +1,566 @@
+html, body { 
+	z-index: 1;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	}	
+
+.parallax { 
+    background-image: url("z.jpg");
+	height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caption {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+  
+}
+
+.caption span.border {
+	
+	color: #fff;
+	padding: 18px;
+	font-size: 3em;
+	letter-spacing: 10px;  
+	font-family: 'Roboto', sans-serif;
+}
+
+/**********************************************************/
+
+.aboutMeDiv {
+	background-color: rgb(26, 119, 119);
+	padding:20%;
+	padding-top: 5%;
+}
+
+.aboutMePic {
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto;
+	vertical-align: middle;
+
+}
+
+.aboutMeHeader {
+	margin: 0 auto;
+	font-size: 3.5em;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+
+
+}
+
+.aboutMeParagraph {
+	color: white;
+	font-size: 1.2em;
+	text-align: left;
+}
+
+/**********************************************************/
+
+.parallax2 {
+	background-image: url("1.jpg");
+	height: 60%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/**********************************************************/
+
+
+.projectsDiv {
+	background-color: rgb(68, 41, 107);
+}
+
+.projectsHeader {
+	padding-top: 5%;
+	color: white;
+	font-size: 3.5em;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.projectsParagraph {
+	padding: 1%;
+	width: 30%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1em;
+	color:  #cccccc;
+}
+
+.projTitle {
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-weight: bold;
+	font-size: 2em;
+	text-align: center;
+}
+
+.projDetails {
+	padding-top: 20px;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.projDetails p{
+	word-wrap: break-word;
+	text-align: center;
+	color: white;
+	font-size: 1.2em;
+}
+
+.proj1Div {
+	/**THIS VALUE IS A TEST**/
+	min-height: 700px;
+	/**THIS VALUE IS A TEST**/
+	margin: 0 auto;
+	display: table;
+	width: 100%;
+	padding-top: 5%; 
+}
+
+.proj1Left {
+	background-image: url("proj1.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	width: 50%;
+	padding: 1rem;	
+}	
+
+.proj1Right {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	width: 50%;
+	padding: 1rem;
+}	
+
+.proj2Div {
+	/**THIS VALUE IS A TEST**/
+	min-height: 700px;
+	/**THIS VALUE IS A TEST**/
+	
+	background-size: cover;
+	margin: 0 auto;
+	display: table;
+	width: 100%;
+	
+}
+
+.proj2Left {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	width: 50%;
+	padding: 1rem;
+}	
+
+.proj2Right {
+	background-image: url("proj2.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	width: 50%;
+	padding: 1rem;	
+}
+
+
+@media screen and (max-width: 800px) {
+	
+	.proj1Left { 
+	background-size: contain;
+	}
+	.proj2Right {
+	  background-size: contain;
+	}
+}
+
+  	
+
+
+/**********************************************************/
+
+.parallax3 {
+	background-image: url("2.jpg");
+	height: 60%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/**********************************************************/
+
+.blogDiv {
+	background-color: rgb(46, 85, 89);
+}
+
+.blogHeader {
+	padding-top: 5%;
+	color: white;
+	font-size: 3.5em;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+/**********************************************************/
+
+.parallax4 {
+	background-image: url("4.jpg");
+	height: 60%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/**********************************************************/
+
+.nowDiv {
+	background-color: rgb(24, 19, 99);
+}
+
+.nowHeader {
+	padding-top: 5%;
+	color: white;
+	font-size: 3.5em;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.nowListDiv {
+	padding-left: 35%;
+	display: inline-block;
+    margin: 0 auto;
+	padding-bottom: 5%;
+}
+.nowlist {
+	margin: 0 auto;
+	display: table;
+}
+
+.nowList li {
+	margin: 10%;
+	color: white;
+	font-size: 2em;
+	line-height: 20px;
+}
+
+/**********************************************************/
+
+.contactDiv {
+	background-color: rgb(102, 59, 43);
+	padding-bottom: 5%;
+}
+
+.contactHeader {
+	padding-top: 5%;
+	color: white;
+	font-size: 3.5em;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.contactDiv2 {
+	/**THIS VALUE IS A TEST**/
+	
+	/**THIS VALUE IS A TEST**/
+	margin: 0 auto;
+	display: table;
+	width: 100%;
+	padding-top: 5%; 
+}
+
+.linksDiv {
+	margin: 0 auto;
+	width: 50%;
+	padding: 1rem;
+}
+
+.contactSocialMedia {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	width: 50%;
+	padding: 1rem;
+}
+
+.contactSocialMedia p {
+	margin: 0 auto;
+	color: white;
+	font-size: 1.2em;
+	text-align: center;
+	width: 50%;
+	word-wrap: break-word;
+}
+
+.contactSocialMedia ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+.contactSocialMedia ul li {
+	float: left;
+}
+
+.contactSocialMedia li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.contactSocialMedia li a:hover {
+    opacity: 0.7;
+}
+
+
+
+
+.contactForm {
+	max-width:600px;
+	margin:0 auto;
+	text-align:center;
+	border-radius:6px;
+	background-color:#FAFAFA;
+}	
+
+
+.contactFormHeader {
+		border-radius:6px 6px 0px 0px;
+  background-color:#2ABCA7;
+  color:#FAFAFA; 
+}
+
+.contactFormHeader h2 {
+	text-align:center;
+	padding:18px 0 18px 0;
+	font-size: 1.4em;
+}
+
+input {
+  margin-bottom:10px;
+}
+textarea {
+  height:100px;
+  margin-bottom:10px;
+}
+input:first-of-type
+{
+  margin-top:35px;
+}
+input, textarea {
+  font-size: 1em;
+  padding: 15px 10px 10px;
+  font-family: 'Source Sans Pro',arial,sans-serif;
+  border: 1px solid #cecece;
+  background: #d7d7d7;
+  color:#000000;
+  border-radius: 10px;
+  background-clip: padding-box;
+  box-sizing: border-box;
+  width: 80%;
+  max-width: 600px;
+}
+
+button {
+  margin-top:15px;
+  margin-bottom:25px;
+  background-color:#2ABCA7;
+  padding: 12px 45px;
+  border-radius: 5px;
+  border: 1px solid #2ABCA7;
+  transition: .5s;
+  display: inline-block;
+  cursor: pointer;
+  width:30%;
+  color:#fff;
+}
+button:hover, .button:hover {
+  background:#19a08c;
+}
+label.error {
+    font-family:'Source Sans Pro',arial,sans-serif;
+    font-size:1em;
+    display:block;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:#d89c9c;
+    width: 80%;
+    margin:auto;
+    color: #FAFAFA;
+    border-radius:6px;
+}
+/* media queries */
+@media (max-width: 700px) {
+  label.error {
+    width: 90%;
+  }
+  input, textarea {
+    width: 90%;
+  }
+  button {
+    width:90%;
+  }
+  body {
+  padding-top:10px;
+  }  
+}
+.message {
+    font-family:'Source Sans Pro',arial,sans-serif;
+    font-size:1.1em;
+    display:none;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:#2ABCA7;
+    width: 80%;
+    margin:auto;
+    color: #FAFAFA;
+    border-radius: 6px;
+}
+
+/**********************************************************/
+
+.footerDiv {
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	font: normal 18px sans-serif;
+	padding: 45px;
+	
+}
+
+.footerMotto {
+	color:  #8d9093;
+	font-size: 24px;
+	margin: 0;
+}
+
+.footerName {
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+	padding-top: 15px;
+}
+
+@media (max-width: 600px) {
+
+	.footerDiv{
+		padding: 35px;
+	}
+
+	.footerMotto {
+		font-size: 18px;
+	}
+
+	.footerName{
+		font-size: 12px;
+	}
+}
+
+
+
+
+/**********************************************************/
+.topnav {
+	z-index: 2;
+	margin: 0;
+	padding: 0;
+    background-color: #333;
+    overflow: hidden;
+	position: fixed;
+	width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+	
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+	position: fixed;
+	padding:0;
+	margin:0;
+}
+body, html {
+	margin: 0;
+	padding: 0;
+}
+  .topnav.responsive a.icon {
+    position: fixed;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
