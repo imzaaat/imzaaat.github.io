@@ -44,8 +44,8 @@ html, body {
 
 .aboutMeDiv {
 	background-color: rgb(26, 119, 119);
-	padding:20%;
 	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 .aboutMePic {
@@ -57,20 +57,27 @@ html, body {
 }
 
 .aboutMeHeader {
+	padding-top: 25px;
 	margin: 0 auto;
 	font-size: 3.5em;
 	font-weight: bold;
 	color: white;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
-
-
 }
 
 .aboutMeParagraph {
+	margin: 0 auto;
 	color: white;
 	font-size: 1.2em;
-	text-align: left;
+	text-align: center;
+	width: 65%;	
+}
+
+@media only screen and (max-width: 600px) {
+	.aboutMeParagraph {
+		width: 85%;
+	}
 }
 
 /**********************************************************/
@@ -89,6 +96,7 @@ html, body {
 
 .projectsDiv {
 	background-color: rgb(68, 41, 107);
+	padding-bottom: 5%;
 }
 
 .projectsHeader {
@@ -98,117 +106,35 @@ html, body {
 	text-align: center;
 	font-weight: bold;
 	font-family: 'Open Sans', sans-serif;
-
 }
 
-.projectsParagraph {
-	padding: 1%;
-	width: 30%;
+.proj {
+	padding: 100px 0 50px 0;
+	
+}
+	
+.projImg {
+	display: block;
 	margin: 0 auto;
-	text-align: center;
-	font-size: 1em;
-	color:  #cccccc;
+	max-width: 70%;
+	max-height: 450px;
 }
 
-.projTitle {
-	margin: 0;
-	padding: 0;
-	color: white;
-	font-weight: bold;
-	font-size: 2em;
-	text-align: center;
-}
-
-.projDetails {
-	padding-top: 20px;
-	width: 50%;
+.projParagraph {
 	margin: 0 auto;
-}
-
-.projDetails p{
-	word-wrap: break-word;
-	text-align: center;
 	color: white;
 	font-size: 1.2em;
+	text-align: center;
+	width: 65%;
 }
 
-.proj1Div {
-	/**THIS VALUE IS A TEST**/
-	min-height: 700px;
-	/**THIS VALUE IS A TEST**/
-	margin: 0 auto;
-	display: table;
-	width: 100%;
-	padding-top: 5%; 
-}
-
-.proj1Left {
-	background-image: url("proj1.jpg");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+@media only screen and (max-width: 600px) {
 	
-	display: table-cell;
-	text-align: center;
-	vertical-align: middle;
-	width: 50%;
-	padding: 1rem;	
-}	
-
-.proj1Right {
-	display: table-cell;
-	text-align: center;
-	vertical-align: middle;
-	width: 50%;
-	padding: 1rem;
-}	
-
-.proj2Div {
-	/**THIS VALUE IS A TEST**/
-	min-height: 700px;
-	/**THIS VALUE IS A TEST**/
-	
-	background-size: cover;
-	margin: 0 auto;
-	display: table;
-	width: 100%;
-	
-}
-
-.proj2Left {
-	display: table-cell;
-	text-align: center;
-	vertical-align: middle;
-	width: 50%;
-	padding: 1rem;
-}	
-
-.proj2Right {
-	background-image: url("proj2.jpg");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	
-	display: table-cell;
-	text-align: center;
-	vertical-align: middle;
-	width: 50%;
-	padding: 1rem;	
-}
-
-
-@media screen and (max-width: 800px) {
-	
-	.proj1Left { 
-	background-size: contain;
+	.projParagraph {
+		width: 85%;
 	}
-	.proj2Right {
-	  background-size: contain;
-	}
+	
 }
-
-  	
-
 
 /**********************************************************/
 
@@ -257,7 +183,8 @@ html, body {
 /**********************************************************/
 
 .nowDiv {
-	background-color: rgb(24, 19, 99);
+	background-color: rgb(20, 20, 100);
+	padding-bottom: 5%;
 }
 
 .nowHeader {
@@ -267,26 +194,29 @@ html, body {
 	text-align: center;
 	font-weight: bold;
 	font-family: 'Open Sans', sans-serif;
-
 }
 
-.nowListDiv {
-	padding-left: 35%;
-	display: inline-block;
-    margin: 0 auto;
-	padding-bottom: 5%;
-}
-.nowlist {
-	margin: 0 auto;
-	display: table;
+.nowList ul {
+	margin: 0;
+	padding:0 ;
 }
 
 .nowList li {
-	margin: 10%;
+	margin: 0;
+	padding:0 ;
+	font-size: 1.2em;
 	color: white;
-	font-size: 2em;
-	line-height: 20px;
 }
+
+.nowLastUpdated {
+	margin: 50px 0 0 0;
+	text-align: center;
+	color:  #d9d9d9;
+	font-size: 0.55em;
+	letter-spacing: 5px;
+	
+}
+
 
 /**********************************************************/
 /**********************************************************/
@@ -315,12 +245,12 @@ html, body {
 }
 
 .contactSocialMediaParagraph {
+	padding-top: 25px;
 	margin: 0 auto;
 	color: white;
 	font-size: 1.2em;
 	text-align: center;
-	width: 65%;
-	word-wrap: break-word;
+	width: 65%;	
 }
 
 .contactLinks ul {
@@ -334,7 +264,7 @@ html, body {
 	
 }
 
-ul li {
+.contactSocialMedia ul li {
 	float: left;
 	padding: 0 15px;	
 }
