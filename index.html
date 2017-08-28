@@ -2,8 +2,12 @@
 <html>
 	
 	<head>
+		<title>Zaid A. Abu-Tarboush</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<script>
 			function myFunction() {
@@ -21,10 +25,10 @@
 	<body>
 	
 	<div class="topnav" id="myTopnav">
-		<a href="#home">Home</a>
-		<a href="#news">News</a>
-		<a href="#contact">Contact</a>
-		<a href="#about">About</a>
+		<a href="#about">ABOUT</a>
+		<a href="#projects">PROJECTS</a>
+		<a href="#now">NOW</a>
+		<a href="#contact">CONTACT</a>
 		<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 	</div>
 	
@@ -34,35 +38,76 @@
 		</div>
 	</div>
 	
+	
+	<div id="about"></div>
 	<div class="aboutMeDiv">
 		<img class="aboutMePic" src="me.jpg" alt="Zaid's Picture" height="200" width="200">
 		
 		<div class="aboutMeHeader">Hey There!</div>
+			<p class="aboutMeParagraph">My name is Zaid Abu-Tarboush. I don’t know how to introduce myself, rather how to classify it...
+			I’m a third-year electrical engineering student at The Hashemite University. But I’m all about computer science and its applications.
+			My passion started when I was five years old. When I broke my first computer trying to learn how it functions. Ever since, I’ve been a tireless seeker of knowledge of that field.</p>
+
+			<p class="aboutMeParagraph">I believe that engineering isn’t just a bunch of courses you take. Engineering, to me, is a way of thinking, it’s a mindset. Engineering is being able to learn what you need to, to get the job done. That’s when I started to believe that I can be a robust innovative person in technology industry without having a degree. Because I have the most blissed skill of all time, the ability to learn.</p>
+
+			<p class="aboutMeParagraph">I expect being an entrepreneur anytime. Being a polymath (it’s a bliss, not a curse) with many interests gives me the ability to have breadth knowledge and deep thoughts from different backgrounds to apply to whatever I’m working on. Another positive side, having an idea what a person does and feels in a specific position makes working with teams easy for me. Because I understand them better. I’m currently working to shape out my career, seemingly in artificial intelligence. Probably merge that with space exploration.</p>
+
+			<p class="aboutMeParagraph" style="padding-bottom: 50px">When I’m not doing anything related to science, you can find me reading, drawing, playing video games, listening to music, or taking a walk.</p>
 		
-		<p class="aboutMeParagraph">Hey! My name’s Zaid. I am a third year electrical engineering student at The Hashemite University.
-		I am passioSnate about computer science and its fields, especially machine learning and computer vision. 
-		</p>
+		<a target="_blank" href="ZaidsResume.pdf">
+			<button type="button" class="aboutMeResume" >
+				VIEW MY RESUME
+			</button>
+		</a>
 	</div>	
 	
 	
 	
 	<div class="parallax2"></div>
 	
-	
+	<div id="projects"></div>
 	<div class="projectsDiv">
 		<div class="projectsHeader">My Latest Projects</div>
+		<div class="sectionHeaderNote"  style="font-size:1em;">
+			I have very high and strict standards when it comes to projects - most my work never sees the light of day. *wipes tear away*
+		</div>
 		
 		<div class="proj">
 			<img src="proj1.jpg" class="projImg">
+			
+			<div class="projTitle">Assembly Tic-Tac-Toc</div>
+			
+			<div class="projParagraph">
+				<p>Like any other tic-tac-toc game, the only difference it was developed by x86 assembly with the help of various interrupts such as, 10h and 21h.</p>
+
+				<p>This very project has been an outstanding experience for me. It gave me an idea about how hard (and fun, maybe?) it was to develop computer software in the early days of computers. Writing programs with assembly makes you feel overpowered, it gives you infinite amount of power to do whatever you want, literally!</p>
+
+				<p>Aside of the hard debugging process with assembly, I think assembly is my new favorite programming language. I feel like I understand how is everything built, working, and evolving. And on top of that, I can read The Art Of Computer Programming by Donald Knuth, the greatest book on algorithms ever, which examples are written in assembly.</p>
+			
+				<p>I have made a video to preview this "game." You can find it <a href="https://youtu.be/eSaycpIEdmE">here</a>.</p>
+			</div>
 		</div>
 		
-		<div class="projParagraph">Here comes andd piasnpid nsapid npasind pnpiqwn ]pidnqwp indpiqwn piqwn dpiqwnpdi nqwpind pqiwdpi qwjkpd ijqspidn wqpind piqwnpiwq npindqwpi nqwpi n</div>
 		
 		<div class="proj">
 			<img src="proj2.jpg" class="projImg">
+			
+			<div class="projTitle">
+				This Website
+			</div>
+			
+			<div class="projParagraph">
+				<p>That's where you are right now! In a world where a toaster or coffee maker can connect to the internet (Internet of Things has progressed), one needs to be present online to connect with others. Having a website has advantages no other social media site has.</p>
+
+				<p>Having little knowledge about web design, this project was a great opportunity to learn. I learned so much the hard way. Probably the lesson that I will never forget is; Design for mobiles first, then other devices. I learned this after I had to rewrite the site from scratch. because it was working on PCs, but not mobiles.</p>
+
+				<p>I could've used content management systems like WordPress or Joomla. But building the site from scratch alone, with my bare hands makes it more valuable for me. This also motivates me to keep it updated. I don't want it to be a random site on the internet which was last updated in 2007.</p>
+
+				<p>Currently, the site is operating on Version 2. You can check out Version 1 <a href="v1/index.html">here</a>.</p>
+
+			</div>
 		</div>
 		
-		<div class="projParagraph">TEST TEST HELLO! I LOVE EVERYTHING LOL</div>
 		
 	</div>
 	
@@ -70,21 +115,25 @@
 
 	<div class="parallax3"></div>
 	
-	
+	<div id="now"></div>
 	<div class="nowDiv">
 	
-		<div class="nowHeader">Here's What I Have Been Up To:</div>
+		<div class="nowHeader">What I Have Been Up To:</div>
+		
+		<div class="sectionHeaderNote">
+			Besides drinking coffee
+		</div>
+		
 		<div>
 			<ul class="nowList">
-				<li>FIRST LINE IS GOOD</li>
-				<li>two?</li>
-				<li>three</li>
-				<li>FOOURRRRRRRRRRR XD I LOVE FOURS AND APRIL CUZ APRIL FOOLS OFC AND THE NICE WEATHER IN JORDAN ITS ACTUALLY MID_SPRING</li>
+				<li>Spending summer vacation making projects, current one is going to involve Arduino</li>
+				<li>Getting ready to apply for next year's internships by refreshing my knowledge on algorithms</li>
+				<li>Reading How to Make a Spaceship by Julian Guthrie</li>
 			</ul>
 		</div>
 		
 		<div class="nowLastUpdated">
-			LAST UPDATED: August 27th.
+			LAST UPDATED: AUGUST 28TH
 		</div>
 	
 	</div>
@@ -94,21 +143,29 @@
 	
 	<div class="parallax4"></div>
 	
-	
+	<div id="contact"></div>
 	<div class="contactDiv">
 		<div class="contactHeader">Contact Me</div>
 		
+		<div class="sectionHeaderNote">
+			Talk to me, will you?
+		</div>
+		
 		<div class="contactSocialMedia">
 			<p class="contactSocialMediaParagraph">
-					HELLO, HERE YOU CAN FIND ME Osssssssssssssssssssssssssssssssas das das da sd as d asd asd ksa N SOCIAL MEDIA WHATSOEVER BLAH BLAH BLAH BLAH					
-			</p>
+				
+				Thank you for taking an interest in me and my skills! 
+				If you have anything on your mind, please don't hesitate to contact me.</p>
 			
+			<p class="contactSocialMediaParagraph">
+				Feel that tingling in your fingertips? That's the magnetic urge to contact me.
+			</p>		
 			<div class="contactLinks">
 				<ul>
-					<li><a><img src="gmail.png" height="48px" width="48px"></a></li>
-					<li><a><img src="twitter.png" height="48px" width="48px"></a></li>
-					<li><a><img src="linkedin.png" height="48px" width="48px"></a></li>
-					<li><a><img src="github.png" height="48px" width="48px"></a></li>
+					<li><a href="mailto:imzaaat@gmail.com"><img src="socialMediaIcons/gmail.png" height="48px" width="48px"></a></li>
+					<li><a href="https://twitter.com/imzaaat"><img src="socialMediaIcons/twitter.png" height="48px" width="48px"></a></li>
+					<li><a href="https://www.linkedin.com/in/zaidabutarboush/"><img src="socialMediaIcons/linkedin.png" height="48px" width="48px"></a></li>
+					<li><a href="https://github.com/ZaidxC"><img src="socialMediaIcons/github.png" height="48px" width="48px"></a></li>
 					
 				</ul>
 			</div>
@@ -144,7 +201,7 @@
 		</div>
 		
 		<div class="footerName">
-			&#169; 2017 Zaid Abu-Tarboush • Made with ♥ • Version 2
+			&#169; 2017 Zaid Abu-Tarboush • Made with <span style="color:red;">♥</span> • Version 2
 		</div>
 	</footer>	
 	
