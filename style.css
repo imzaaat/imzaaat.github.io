@@ -148,7 +148,7 @@ html, body {
 	padding-top: 25px;
 	margin: 0 auto;
 	color: white;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	text-align: left;
 	width: 65%;	
 	
@@ -225,7 +225,7 @@ html, body {
 	padding-top: 15px;
 	margin: 0 auto;
 	color: white;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	text-align: left;
 	width: 65%;
 }
@@ -298,7 +298,7 @@ html, body {
 .nowList li {
 	margin: 0;
 	padding: 10px 0 0 0;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	color: white;
 }
 
@@ -341,9 +341,13 @@ html, body {
 	padding-top: 25px;
 	margin: 0 auto;
 	color: white;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	text-align: center;
 	width: 65%;	
+}
+
+.contactLinks {
+	padding: 25px 0 0 0;
 }
 
 .contactLinks ul {
