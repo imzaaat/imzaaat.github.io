@@ -13,6 +13,15 @@ html, body {
 	}
 }	
 
+.sectionHeader {
+	padding-top: 2.5%;
+	margin: 0 auto;
+	font-size: 3.5em;
+	color: white;
+	text-align: center;
+	font-family: 'Patua One';
+}
+
 .sectionHeaderNote {
 	padding-top: 5px;
 	font-size: 0.6em;
@@ -28,7 +37,6 @@ html, body {
 	}
 }
 
-	
 .topnav {
 	font-family: 'Patua One', cursive;
 	z-index: 2;
@@ -79,9 +87,6 @@ html, body {
     text-align: left;
   }
 }	
-	
-	
-	
 
 .parallax { 
     background-image: url("parallaxImages/parallax1.jpg");
@@ -106,8 +111,8 @@ html, body {
 	
 	color: #fff;
 	padding: 18px;
-	font-size: 3em;
-	letter-spacing: 10px;  
+	font-size: 3.5em;
+	letter-spacing: 7px;  
 	
 }
 
@@ -121,7 +126,7 @@ html, body {
 /**********************************************************/
 
 .aboutMeDiv {
-	background-color: rgb(26, 119, 119);
+	background-color: rgb(30, 120, 120);
 	padding-top: 5%;
 	padding-bottom: 5%;
 	text-align: center;
@@ -135,15 +140,6 @@ html, body {
 
 }
 
-.aboutMeHeader {
-	padding-top: 25px;
-	margin: 0 auto;
-	font-size: 3.5em;
-	color: white;
-	text-align: center;
-	font-family: 'Patua One', cursive;
-}
-
 .aboutMeParagraph {
 	padding-top: 25px;
 	margin: 0 auto;
@@ -151,25 +147,59 @@ html, body {
 	font-size: 1.1em;
 	text-align: justify;
 	width: 65%;	
-	
 }
 
-.aboutMeResume {
-	margin: 0 auto;
-	background-color: rgb(26, 119, 119);;
-	color: white;
-	border: 2px solid white;	
+.contactLinks {
+	text-align: center;
+	padding: 10px 0 0 0;
 }
 
-.aboutMeResume:hover {
-	background-color: white;
-	color: rgb(26, 119, 119);
+.contactLinks ul {
+	display:table; 
+	margin:0 auto;
+	list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.aboutMeDiv ul li {
+	float: left;
+	padding: 0 10px;	
+}
+
+.aboutMeDiv li a:hover {
+	opacity: 0.65;
+}
+
+
+button {
+  margin: 0 auto;
+  background-color: rgb(30, 120, 120);
+  padding: 12px 45px;
+  border-radius: 5px;
+  border: 2px solid white;
+  transition: .5s;
+  display: inline-block;
+  cursor: pointer;
+  width:30%;
+  color:#fff;
+  
+}
+
+button:hover, .button:hover {
+  	background-color: white;
+	color: rgb(30, 120, 120);
 	border: 2px solid white
 }
 
 @media only screen and (max-width: 600px) {
 	.aboutMeParagraph {
-		width: 85%;
+		width: 90%;
+	}
+	.aboutMeDiv ul li {
+		padding: 0 3px;
 	}
 }
 
@@ -177,7 +207,7 @@ html, body {
 
 .parallax2 {
 	background-image: url("parallaxImages/parallax2.jpg");
-	height: 60%;
+	height: 45%;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -185,7 +215,6 @@ html, body {
 }
 
 /**********************************************************/
-
 
 .projectsDiv {
 	background-color: rgb(68, 41, 107);
@@ -251,7 +280,7 @@ html, body {
 
 .parallax3 {
 	background-image: url("parallaxImages/parallax3.jpg");
-	height: 60%;
+	height: 45%;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -259,7 +288,6 @@ html, body {
 }
 
 /**********************************************************/
-
 .parallax4 {
 	background-image: url("parallaxImages/parallax4.jpg");
 	height: 60%;
@@ -270,24 +298,10 @@ html, body {
 }
 
 /**********************************************************/
-/**********************************************************/
-/**********************************************************/
-/********** NOW ****************************************/
-/**********************************************************/
-/**********************************************************/
-/**********************************************************/
 
 .nowDiv {
 	background-color: rgb(20, 20, 100);
 	padding-bottom: 5%;
-}
-
-.nowHeader {
-	padding-top: 5%;
-	color: white;
-	font-size: 3.5em;
-	text-align: center;
-	font-family: 'Patua One', cursive;
 }
 
 .nowList ul {
@@ -311,211 +325,27 @@ html, body {
 	
 }
 
-
 /**********************************************************/
-/**********************************************************/
-/**********************************************************/
-/********** CONTACT ****************************************/
-/**********************************************************/
-/**********************************************************/
-/**********************************************************/
-.contactDiv {
-	background-color: rgb(50, 25, 15);
-	padding-bottom: 5%;
-}
-
-.contactHeader {
-	padding-top: 5%;
-	color: white;
-	font-size: 3.5em;
-	text-align: center;
-	font-family: 'Patua One', cursive;
-}
-
-.contactSocialMedia {
-	text-align: center;
-	
-}
-
-.contactSocialMediaParagraph {
-	padding-top: 25px;
-	margin: 0 auto;
-	color: white;
-	font-size: 1.1em;
-	text-align: center;
-	width: 65%;	
-}
-
-.contactLinks {
-	padding: 25px 0 0 0;
-}
-
-.contactLinks ul {
-	display:table; 
-	margin:0 auto;
-	list-style-type: none;
-    padding: 0;
-    overflow: hidden;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	
-}
-
-.contactSocialMedia ul li {
-	float: left;
-	padding: 0 15px;	
-}
-
-li a:hover {
-	opacity: 0.65;
-}
-
-
-/********/
-@media only screen and (max-width: 600px) {
-	.contactSocialMediaParagraph {
-		width: 85%;
-		font-size: 1em;
-	}
-	
-	.contactSocialMedia ul li {
-		padding: 0 2px;
-	}
-}
-/********/
-
-/***********************************************************************/
-
-.contactForm {
-	max-width: 500px;
-	width: 85%;
-	margin:0 auto;
-	text-align:center;
-	border-radius:6px;
-	background-color:#FAFAFA;
-}	
-
-
-.contactFormHeader {
-		border-radius:6px 6px 0px 0px;
-  background-color:#2ABCA7;
-  color:#FAFAFA; 
-}
-
-.contactFormHeader h2 {
-	text-align:center;
-	padding:18px 0 18px 0;
-	font-size: 1.4em;
-}
-
-input {
-  margin-bottom:10px;
-}
-textarea {
-  height:100px;
-  margin-bottom:10px;
-}
-input:first-of-type
-{
-  margin-top:35px;
-}
-input, textarea {
-  font-size: 1em;
-  padding: 15px 10px 10px;
-  font-family: 'Source Sans Pro',arial,sans-serif;
-  border: 1px solid #cecece;
-  background: #d7d7d7;
-  color:#000000;
-  border-radius: 10px;
-  background-clip: padding-box;
-  box-sizing: border-box;
-  width: 80%;
-  max-width: 600px;
-}
-
-button {
-  margin-top:15px;
-  margin-bottom:25px;
-  background-color:#2ABCA7;
-  padding: 12px 45px;
-  border-radius: 5px;
-  border: 1px solid #2ABCA7;
-  transition: .5s;
-  display: inline-block;
-  cursor: pointer;
-  width:30%;
-  color:#fff;
-}
-button:hover, .button:hover {
-  background:#19a08c;
-}
-label.error {
-    font-family:'Source Sans Pro',arial,sans-serif;
-    font-size:1em;
-    display:block;
-    padding-top:10px;
-    padding-bottom:10px;
-    background-color:#d89c9c;
-    width: 80%;
-    margin:auto;
-    color: #FAFAFA;
-    border-radius:6px;
-}
-/* media queries */
-@media (max-width: 600px) {
-  label.error {
-    width: 90%;
-  }
-  input, textarea {
-    width: 90%;
-  }
-  button {
-    width:90%;
-  }
-  body {
-  padding-top:10px;
-  }  
-}
-.message {
-    font-family:'Source Sans Pro',arial,sans-serif;
-    font-size:1.1em;
-    display:none;
-    padding-top:10px;
-    padding-bottom:10px;
-    background-color:#2ABCA7;
-    width: 80%;
-    margin:auto;
-    color: #FAFAFA;
-    border-radius: 6px;
-}
-
-/**********************************************************/
-/**********************************************************/
-/********** FOOTER ****************************************/
-/**********************************************************/
-/**********************************************************/
-/**********************************************************/
-
 
 .footerDiv {
-	background-color: #292c2f;
+	background-color: #1d1d1d;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
 	text-align: center;
 	font: normal 18px sans-serif;
-	padding: 45px;
+	padding: 10px;
 }
 
 .footerMotto {
 	color:  #8d9093;
-	font-size: 24px;
+	font-size: 14px;
 	margin: 0;
 }
 
 .footerName {
 	color:  #8f9296;
-	font-size: 14px;
+	font-size: 12px;
 	margin: 0;
 	padding-top: 15px;
 }
@@ -534,8 +364,3 @@ label.error {
 		font-size: 12px;
 	}
 }
-
-
-
-
-/**********************************************************/
